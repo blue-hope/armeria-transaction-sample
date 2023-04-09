@@ -27,6 +27,7 @@ dependencies {
     implementation("com.linecorp.armeria:armeria-spring-boot2-webflux-starter:$armeriaVersion")
     implementation("com.linecorp.armeria:armeria-grpc:$armeriaVersion")
     implementation("com.linecorp.armeria:armeria-kotlin:$armeriaVersion")
+    implementation("com.linecorp.armeria:armeria-reactor3:$armeriaVersion")
     implementation("io.grpc:grpc-stub:1.46.0")
     implementation("io.grpc:grpc-kotlin-stub:1.2.1")
     implementation("io.grpc:grpc-protobuf:1.46.0")
